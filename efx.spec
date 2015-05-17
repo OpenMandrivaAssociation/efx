@@ -14,6 +14,7 @@ License:	LGPLv2+
 Group: 		Graphical desktop/Enlightenment
 URL: 		http://www.enlightenment.org/
 Source0:        https://download.enlightenment.org/pre-releases/%{name}-%{version}.tar.bz2
+Source100:	efx.rpmlintrc
 BuildRequires:	pkgconfig
 BuildRequires:	doxygen
 BuildRequires:	efl-devel
@@ -40,11 +41,10 @@ Provides: %name-devel = %{version}-%{release}
 %{name} development headers and libraries.
 
 %prep
-%setup -qn %name
+%setup -qn %name-%version
 
 %build
 LC_ALL=C NOCONFIGURE=1 ./autogen.sh
-%endif
 %configure2_5x --disable-static
 %make
 
