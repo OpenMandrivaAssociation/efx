@@ -19,7 +19,7 @@ BuildRequires:	pkgconfig
 BuildRequires:	doxygen
 BuildRequires:	pkgconfig(efl)
 BuildRequires:	pkgconfig(eet)
-BuildRequires:	pkfconfig(evas)
+BuildRequires:	pkgconfig(evas)
 
 
 %description
