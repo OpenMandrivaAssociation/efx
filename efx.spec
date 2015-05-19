@@ -17,7 +17,9 @@ Source0:        https://download.enlightenment.org/pre-releases/%{name}-%{versio
 Source100:	efx.rpmlintrc
 BuildRequires:	pkgconfig
 BuildRequires:	doxygen
-BuildRequires:	efl-devel
+BuildRequires:	pkgconfig(efl)
+BuildRequires:	pkgconfig(eet)
+BuildRequires:	pkfconfig(evas)
 
 
 %description
