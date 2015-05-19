@@ -22,6 +22,7 @@ BuildRequires:	pkgconfig(eet)
 BuildRequires:	pkgconfig(evas)
 BuildRequires:	pkgconfig(eina)
 BuildRequires:	pkgconfig(emile)
+BuildRequires:	pkgconfig(ecore)
 
 
 %description
