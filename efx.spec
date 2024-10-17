@@ -12,7 +12,7 @@ Version: 	%{version}
 Release:	%{release}
 License:	LGPLv2+
 Group: 		Graphical desktop/Enlightenment
-URL: 		http://www.enlightenment.org/
+URL: 		https://www.enlightenment.org/
 Source0:        https://download.enlightenment.org/pre-releases/%{name}-%{version}.tar.bz2
 Source100:	efx.rpmlintrc
 BuildRequires:	pkgconfig
